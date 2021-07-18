@@ -5,10 +5,12 @@ Hands-On AI is an app that contains basic information about Artificial Intellige
 ## 📸 Screenshots of the app
 ### Home page
 ![image](https://user-images.githubusercontent.com/61745477/126072300-dccd1ffe-229f-4b59-8b1a-240c0a783325.png) 
-### Learn Page
+### Learn Pages
 ![image](https://user-images.githubusercontent.com/61745477/126073219-6d584f58-aeb8-40c7-b7ca-bd237f2a25bd.png) ![image](https://user-images.githubusercontent.com/61745477/126074110-d42022cf-2d87-4962-9d4a-30a610c36704.png)
 
 ### Videos page
+![image](https://user-images.githubusercontent.com/61745477/126074624-82c54b29-2f1c-4717-8fe9-1331343212ed.png)
+
 
 
 
