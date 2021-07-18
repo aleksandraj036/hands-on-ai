@@ -3,9 +3,9 @@ import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 class ThirdRoute extends StatelessWidget {
   YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: 'XfYmia3q2Ow',
+    initialVideoId: 'YRhxdVk_sIs',
     params: YoutubePlayerParams(
-      playlist: ['nPt8bK2gbaU', 'gQDByCdjUXw'], // Defining custom playlist
+      playlist: ['YRhxdVk_sIs', 'QciIcRxJvsM', 'Sq36J9pNaEo', 'Ilg3gGewQ5U', 'aR5N2Jl8k14', '5dZ_lvDgevk'],
       startAt: Duration(seconds: 30),
       showControls: true,
       showFullscreenButton: true,

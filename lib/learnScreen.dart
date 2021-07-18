@@ -133,8 +133,11 @@ class SecondRouteML extends StatelessWidget {
                                 height: 20,
                                 width: 20,
                               ),
-                              Text(snapshot.data.docs[index]['desc']),
                               Image.network(snapshot.data.docs[index]['img']),
+                              SizedBox(height: 20),
+                              Text(snapshot.data.docs[index]['desc'], style: TextStyle(fontWeight: FontWeight.w400), textAlign: TextAlign.center,),
+                              SizedBox(height: 50),
+                              
                               
                             ],
                           ),
@@ -173,28 +176,31 @@ class SecondRouteAI extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
-                          child: Column(
-                            children: [
-                              Text(
-                                snapshot.data.docs[index]['name'],
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    fontSize: 30, fontWeight: FontWeight.bold),
-                              ),
-                              SizedBox(
-                                height: 20,
-                                width: 20,
-                              ),
-                              Image.network(snapshot.data.docs[index]['img']),
-                              SizedBox(height: 20),
-                              Text(snapshot.data.docs[index]['desc'] /*, style: TextStyle(fontStyle: FontStyle.italic)*/),
-                              SizedBox(height: 20),
-                              Text(snapshot.data.docs[index]['descII']),
-                              SizedBox(height: 20),
-                              Text(snapshot.data.docs[index]['descIII']),
-                              SizedBox(height: 20),
-                              Text(snapshot.data.docs[index]['descIV']),
-                            ],
+                          child: Padding( padding: EdgeInsets.only(left: 15, right: 15),
+                                                      child: Column(
+                              children: [
+                                Text(
+                                  snapshot.data.docs[index]['name'],
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      fontSize: 30, fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(
+                                  height: 20,
+                                  width: 20,
+                                ),
+                                Image.network(snapshot.data.docs[index]['img']),
+                                SizedBox(height: 20),
+                                Text(snapshot.data.docs[index]['desc'],  style: TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.w600), textAlign: TextAlign.center,),
+                                SizedBox(height: 20),
+                                Text(snapshot.data.docs[index]['descII']),
+                                SizedBox(height: 20),
+                                Text(snapshot.data.docs[index]['descIII']),
+                                SizedBox(height: 20),
+                                Text(snapshot.data.docs[index]['descIV']),
+                                SizedBox(height: 40),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -231,21 +237,27 @@ class SecondRouteDL extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
-                          child: Column(
-                            children: [
-                              Text(
-                                snapshot.data.docs[index]['name'],
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    fontSize: 30, fontWeight: FontWeight.bold),
-                              ),
-                              SizedBox(
-                                height: 20,
-                                width: 20,
-                              ),
-                              //Image.network(snapshot.data.docs[index]['img']),
-                              //Text(snapshot.data.docs[index]['desc']),
-                            ],
+                          child: Padding( padding: EdgeInsets.only(left: 15, right: 15),
+                                                      child: Column(
+                              children: [
+                                Text(
+                                  snapshot.data.docs[index]['name'],
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      fontSize: 30, fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(
+                                  height: 20,
+                                  width: 20,
+                                ),
+                                Image.network(snapshot.data.docs[index]['img']),
+                                SizedBox(height: 20),
+                                Text(snapshot.data.docs[index]['desc'],  style: TextStyle( fontWeight: FontWeight.w700), textAlign: TextAlign.center,),
+                                SizedBox(height: 20),
+                                Text(snapshot.data.docs[index]['descII']),
+                                SizedBox(height: 20),
+                              ],
+                            ),
                           ),
                         ),
                       ),
