@@ -15,7 +15,7 @@ Hands-On AI is an app that contains basic information about Artificial Intellige
 
 
 ## Technologies
-
+Flutter <img alt="Flutter" src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
 
 
 ## 🔖 License
