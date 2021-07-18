@@ -26,7 +26,7 @@ Hands-On AI is an app that contains basic information about Artificial Intellige
 🟤 firebase_core <br>
 
 <br>
-<br>
+
 ## 🔖 License
 [MIT](https://choosealicense.com/licenses/mit/)
 
