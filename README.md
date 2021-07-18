@@ -29,6 +29,6 @@ Hands-On AI is an app that contains basic information about Artificial Intellige
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## 🔨 Future improvements
-Made it accessible for iOS and Android
-Add responsivness
-Add more features and text
+Made it accessible for iOS and Android <br>
+Add responsivness <br>
+Add more features and text <br>
