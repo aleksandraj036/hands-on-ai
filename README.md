@@ -21,10 +21,14 @@ Hands-On AI is an app that contains basic information about Artificial Intellige
 ### Used packages
 🟣 youtube_player_iframe <br>
 🟠 font_awesome_flutter <br>
-🟢 cloud_firestore
-🟤 firebase_core
-
+🟢 cloud_firestore <br>
+🟤 firebase_core <br>
 
 
 ## 🔖 License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## 🔨 Future improvements
+Made it accessible for iOS and Android
+Add responsivness
+Add more features and text
