@@ -1,7 +1,7 @@
 # Hands-On AI App
 ## 💡 Idea
 Hands-On AI is an app that contains basic information about Artificial Intelligence. The idea came from the class that I was taking in the univeristy. Even if this topic is not directly related to my studies, I found AI really intresting. <br>
-I would like to pass the knowledge that I've learnt to the other people in a fun, easy way in the form of this app. 
+I would like to convey the knowledge that I've learnt to the other people in a fun, easy way in the form of this app. 
 
 ## 📸 Screenshots of the app
 ### Home Page
